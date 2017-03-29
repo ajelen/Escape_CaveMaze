@@ -92,11 +92,22 @@ elif vhod == "3":
 					Si že zelo blizu središča blodnjaka. Samo še malo."""
 				elif izhod == "2":
 					print """Ne mudi se ti še končati avanturo, zato si se udeležil
-					tečaja izdelovanja mističnih figuric iz gline. Ob tem se sprošča
+					tečaja izdelovanja mističnih figuric iz gline. Ob tem se sproščajo
 					endorfini - hormoni sreče, zato si le vzemi čas in izdelaj kaj 
 					lepega!"""
 				elif izhod == "3":
 					print "Prišel si do središča blodnjaka!"
+
+		elif dva_rova == "2":
+			print "Ker po navadi ubereš bolj varno pot, tudi tokrat to narediš."
+			print "Sedaj se sprehodi čez bazen vode. Je hladna, a se splača potrpeti."
+			print "Prišel si do tolmuna termalne vode."
+		else:
+			print "Samo dva rova sta!"
+			
+	elif slepi_rov == "2":
+		print "Našel si lopatko in macolo. Skoplji luknjo."
+		print "Našel si skrinjico. Odpri jo in sledi navodilom."
 
 else:
 	print "Moraš se odločiti, skozi kateri vhod boš prišel do središča blodnjaka."
